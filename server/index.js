@@ -3,11 +3,11 @@ const express = require('express');
 const handle = require('./handlers');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const db=require('./models')
+const db=require('./models');
 
 
 const app = express();
-d
+
 const port = process.env.PORT;
 
 app.get('/',(req,res) => res.json({hello:'world'}));
