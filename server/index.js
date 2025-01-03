@@ -7,7 +7,7 @@ const db=require('./models')
 
 
 const app = express();
-
+d
 const port = process.env.PORT;
 
 app.get('/',(req,res) => res.json({hello:'world'}));
